@@ -16,7 +16,6 @@ const nextConfig = {
   // Add trailing slash for better static hosting compatibility
   trailingSlash: true,
   // Optimize bundle size
-  swcMinify: false,
   // Add custom headers for static hosting
   async headers() {
     return [
